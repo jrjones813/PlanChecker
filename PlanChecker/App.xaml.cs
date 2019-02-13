@@ -17,6 +17,8 @@ namespace PlanChecker
     /// </summary>
     public partial class App : Application
     {
+        private object sac;
+
         protected override void OnStartup(StartupEventArgs e)
         {
             string[] args = e.Args;
@@ -27,12 +29,13 @@ namespace PlanChecker
             //Might disable (uncomment) for plugin mode
             bs.IsPatientSelectionEnabled = true;
             bs.Run(args);
+        }
 
-            protected override void OnExit(ExitEventArgs e)
+        protected override void OnExit(ExitEventArgs e)
         {
             base.OnExit(e);
-            AppComThread.Instance.Dispose();
+            AppComThread.Instance.Execute(sac = sac.Dispose();
         }
     }
-    }
 }
+

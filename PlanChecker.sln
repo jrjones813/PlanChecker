@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanChecker", "PlanChecker\PlanChecker.csproj", "{F99A3A28-4476-4557-AE02-12231A6A9A9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanCheckerTests", "PlanCheckerTests\PlanCheckerTests.csproj", "{98C663FD-F464-45A4-80FA-6DDC62289127}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,14 @@ Global
 		{F99A3A28-4476-4557-AE02-12231A6A9A9D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F99A3A28-4476-4557-AE02-12231A6A9A9D}.Release|x64.ActiveCfg = Release|x64
 		{F99A3A28-4476-4557-AE02-12231A6A9A9D}.Release|x64.Build.0 = Release|x64
+		{98C663FD-F464-45A4-80FA-6DDC62289127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C663FD-F464-45A4-80FA-6DDC62289127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C663FD-F464-45A4-80FA-6DDC62289127}.Debug|x64.ActiveCfg = Debug|x64
+		{98C663FD-F464-45A4-80FA-6DDC62289127}.Debug|x64.Build.0 = Debug|x64
+		{98C663FD-F464-45A4-80FA-6DDC62289127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C663FD-F464-45A4-80FA-6DDC62289127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C663FD-F464-45A4-80FA-6DDC62289127}.Release|x64.ActiveCfg = Release|Any CPU
+		{98C663FD-F464-45A4-80FA-6DDC62289127}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

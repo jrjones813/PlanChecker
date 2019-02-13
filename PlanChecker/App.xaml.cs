@@ -1,4 +1,5 @@
 ﻿using ESAPIX.Bootstrapper;
+using ESAPIX.Common;
 using PlanChecker.Views;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,12 @@ namespace PlanChecker
             //Might disable (uncomment) for plugin mode
             bs.IsPatientSelectionEnabled = true;
             bs.Run(args);
+
+            protected override void OnExit(ExitEventArgs e)
+        {
+            base.OnExit(e);
+            AppComThread.Instance.Dispose();
         }
+    }
     }
 }
